@@ -4,7 +4,7 @@ subtitle: Re-inventing politics
 email: info@team.political.nz
 description: political.nz is new kind of political party on a mission to discover what it means to be a self governing people. 
 baseurl: # the subpath of your site, e.g. /blog
-url: "https://testzone.pnzdev2.xyz" # the base hostname & protocol for your site
+url: "https://political.nz" # the base hostname & protocol for your site
 author:
 #street_address: 1234 Somewhere Road
 #city: Nashville
@@ -21,15 +21,15 @@ tiles-count: 6
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
-socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+# socials:
+#   GitHub: https://github.com/andrewbanchich
+#   GitLab:
+#   Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+#   Instagram:
+#   LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+#   Twitter: https://twitter.com/andrewbanchich
+#   Facebook:
+#   Slack:
 
 # build settings
 markdown: kramdown
