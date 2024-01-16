@@ -1,0 +1,1 @@
+There’s no blueprint for what **political.nz** is doing. What we’re attempting has never been done before so the project is a journey of exploration and innovation. What we do have is a vision and a set of principles to guide us in this journey. Expand the sections below to learn more.

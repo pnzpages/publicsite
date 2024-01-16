@@ -1,0 +1,1 @@
+Where traditional parties rely on votes from the wider public without involving us in the decision-making process, **political.nz** relies on votes from the membership. This means that we need a membership of **200,000** people, who all have easy and equal access to participate in the process at a level that suits them. When we say participation at massive scale, we mean it. 

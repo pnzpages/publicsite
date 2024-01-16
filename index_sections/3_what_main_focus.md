@@ -1,0 +1,1 @@
+Where traditional parties concentrate power in their core team and focus on how they can get votes from the public, the **political.nz** core team has a singular focus on empowering its members to build and own the party policy. The membership has the final say on whether a policy is adopted.

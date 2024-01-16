@@ -1,0 +1,1 @@
+With the support of 200,000 New Zealanders **political.nz** will register as an official New Zealand political party. We aim to make history by being the first modern party to enter parliament on our first run.

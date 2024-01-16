@@ -1,0 +1,1 @@
+Where MPs in traditional parties are required to campaign for votes, **political.nz** MPs work for the membership. They don’t need to spin a narrative or make wild promises. Their job is purely to represent and negotiate policy in Parliament on behalf of **political.nz** members.

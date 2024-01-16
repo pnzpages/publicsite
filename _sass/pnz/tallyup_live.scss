@@ -1,0 +1,74 @@
+#tallyup_live {
+    text-align: center;
+
+    .tallyup-live-box {
+        display: inline-block;
+        background-color:rgba(255, 255, 255, 0.3);
+        font-weight:600;
+        border:none;
+        color: #ffffff;
+        padding: 5px 5px;
+        text-align: center;
+        border-radius: 5px;
+
+        a {
+            //color: rgb(0, 0, 0);
+            text-decoration: none !important;
+        };
+        p {
+            padding:0;
+            margin:0;
+        };
+        .tallyup-live-digit-container {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            padding: 2px;
+            margin: 2px;
+        }
+        .tallyup-digit {
+            background-color: #C25000;
+            color: #ffffff;
+            text-align: center;
+            font-size: 28px;
+            line-height: normal;
+            font-weight: 600;
+            border: solid 2px #C25000;
+            border-radius: 10px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 3px;
+            padding: 2px 5px;
+            text-decoration: none;
+            text-transform: capitalize;
+        };
+
+
+    };
+    
+    
+
+
+
+    // .tallyup-live-value {
+        
+    //     color: rgb(47, 47, 47);
+    //     font-size: 36pt;
+    //     margin:0;
+    //     padding: 0;
+    //     line-height:normal;
+    //     @include breakpoint(xlarge) {
+	// 		font-size: 36pt;
+	// 	}
+
+	// 	@include breakpoint(large) {
+	// 		font-size: 36pt;
+	// 	}
+
+	// 	@include breakpoint(xxsmall) {
+	// 		font-size: 16pt;
+	// 	}
+    // };
+
+
+    
+}
