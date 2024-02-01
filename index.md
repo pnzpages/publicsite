@@ -147,10 +147,6 @@ nav-menu: false
 									{% capture 3_what_policy_development %}{% include_relative index_sections/3_what_policy_development.md
 									%}{% endcapture %}
 									{{ 3_what_policy_development | markdownify }}
-
-									<a href="{% link assets/images/political.nz_policy_flow.png %}" class="image">
-										<img src="{% link assets/images/political.nz_policy_flow.png %}" alt="" data-position="top center" />
-									</a>
 								</div>
 							</div>
 						</div>							
