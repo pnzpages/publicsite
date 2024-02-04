@@ -5,6 +5,19 @@ function InsertTallyUpLive() {
     fetch(url, { mode: 'cors'})
         .then(response => response.json())
         .then(data => {
+          
+            
+        var tallyup_live_date_container = document.getElementById("tallyup_live_date_container");
+        // Check if both tallyup_live_month and tallyup_live_year are not undefined
+        if (typeof data.tallyup_live_month !== 'undefined' && typeof data.tallyup_live_year !== 'undefined') {
+            const tallyup_live_date = document.createElement('p');
+            // Uncomment and correct the next line if you need to add a class to the tallyup_live_date element
+            // tallyup_live_date.classList.add("tallyup-digit");
+            tallyup_live_date.textContent = data.tallyup_live_month + " " + data.tallyup_live_year;
+            tallyup_live_date_container.appendChild(tallyup_live_date);
+        }
+
+            
             // Retrieve the value you want from the JSON data
             const TallyUpLiveValue = data.tallyup_live_active;
             // Convert the number to a string and pad it with zeros to ensure it's 6 characters long
@@ -25,6 +38,9 @@ function InsertTallyUpLive() {
                 tallyuplive_digit_span.textContent = digits[i]
                 tallyup_digit_container.appendChild(tallyuplive_digit_span);
             }
+
+
+
         })
         .catch(error => console.error(error));
 }
