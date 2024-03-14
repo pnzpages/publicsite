@@ -4,7 +4,7 @@ As a country, our future holds extraordinary challenges and opportunities – cl
 
 As a self-governing community, politics is the way we grapple with these issues and opportunities and direct our country to greater flourishing. The problem is, the way we do politics is broken. 
 
-It’s worked ok for the last 100+ years but it’s no longer fit-for-purpose. The issues have become far too complex and the pace of change too great to be managed through our traditional parties, which are pre-occupied with getting power.  
+It’s worked ok for the last 100+ years but it’s no longer fit-for-purpose. The issues have become far too complex and the pace of change too great to be managed through our traditional parties, which are pre-occupied with image and getting power.   
 
 As a country we are becoming increasingly divided and this is making our politics even harder, but if a very large group of everyday New Zealanders applied their hearts and minds to a more collaborative kind of politics, we could transform the political landscape. We might even get the traditional parties to question the value they bring to New Zealanders and up their game. 
 
