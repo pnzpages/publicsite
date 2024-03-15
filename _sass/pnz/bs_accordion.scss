@@ -25,14 +25,18 @@
     --#{$prefix}accordion-btn-icon-transform: #{$accordion-icon-transform};
     --#{$prefix}accordion-btn-icon-transition: #{$accordion-icon-transition};
     --#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon)};
-    --#{$prefix}accordion-btn-focus-border-color: #{$accordion-button-focus-border-color};
-    --#{$prefix}accordion-btn-focus-box-shadow: #{$accordion-button-focus-box-shadow};
+    --#{$prefix}accordion-btn-focus-border-color:#C25000; //#{$accordion-button-focus-border-color};
+    --#{$prefix}accordion-btn-focus-box-shadow: 0 0 0 0;//#{$accordion-button-focus-box-shadow};
     --#{$prefix}accordion-body-padding-x: #{$accordion-body-padding-x};
     --#{$prefix}accordion-body-padding-y: #{$accordion-body-padding-y};
     --#{$prefix}accordion-active-color: #{$accordion-button-active-color};
     --#{$prefix}accordion-active-bg: #{$accordion-button-active-bg};
+    //pnz
+    
     // scss-docs-end accordion-css-vars
   }
+
+  
   
   .accordion-button {
     position: relative;
@@ -44,7 +48,7 @@
     color: var(--#{$prefix}accordion-btn-color);
     text-align: left; // Reset button style
     background-color: var(--#{$prefix}accordion-btn-bg);
-    border: 0;
+    border: 0px;
     @include border-radius(0);
     overflow-anchor: none;
     @include transition(var(--#{$prefix}accordion-transition));
@@ -75,11 +79,18 @@
   
     &:hover {
       z-index: 2;
+      -webkit-box-shadow: inset 0 0 0 2px #C25000;
+      box-shadow: inset 0 0 0 2px #C25000;
+      color: #ffffff;
+      background-color: #C25000;
+      border: 0px;
     }
   
     &:focus {
       z-index: 3;
+      
       border-color: var(--#{$prefix}accordion-btn-focus-border-color);
+      
       outline: 0;
       box-shadow: var(--#{$prefix}accordion-btn-focus-box-shadow);
     }
@@ -87,12 +98,14 @@
   
   .accordion-header {
     margin-bottom: 0;
+    //border:0px;
+
   }
   
   .accordion-item {
     color: var(--#{$prefix}accordion-color);
     background-color: var(--#{$prefix}accordion-bg);
-    border: var(--#{$prefix}accordion-border-width) solid var(--#{$prefix}accordion-border-color);
+    border: var(--#{$prefix}accordion-border-width) solid #242943;//var(--#{$prefix}accordion-border-color);
   
     &:first-of-type {
       @include border-top-radius(var(--#{$prefix}accordion-border-radius));
